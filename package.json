@@ -1,0 +1,25 @@
+{
+  "name": "servidor-webhooks-node",
+  "version": "1.0.0",
+  "description": "Webhooks são uma forma de permitir que um aplicativo envie informações em tempo real para outro aplicativo. Imagine que você tenha um sistema que precisa ser notificado sempre que algo acontece em outro sistema.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JoaoG23/Servidor-webhooks-node.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/JoaoG23/Servidor-webhooks-node/issues"
+  },
+  "homepage": "https://github.com/JoaoG23/Servidor-webhooks-node#readme",
+  "dependencies": {
+    "axios": "^1.8.1",
+    "express": "^4.21.2",
+    "ngrok": "^5.0.0-beta.2"
+  }
+}
